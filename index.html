@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sample Design - (not Figma)</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="./img/Logo.png" alt="ProLOG logo">
+            </div>
+
+            <!-- Navigation bar only visible when width > 800px -->
+            <div class="navigation">
+                <div class="navbutton">Home</div>
+                <div class="navbutton">Products</div>
+                <div class="navbutton">Documentation</div>
+                <div class="navbutton">Pricing</div>
+            </div>
+            <div class="dashButtonContainer">
+                <div class="dashbutton">Open Dashboard</div>
+            </div>
+
+            <!-- Hamburguer Menu to be displayed only when width < 800px -->
+            <div class="hamburguerMenu">
+                    <input type="checkbox">
+                    <!-- The triple span is used to create the hamburguer-icon -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <ul id="menu">
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>Products</li></a>
+                        <a href="#"><li>Documentation</li></a>
+                        <a href="#"><li>Pricing</li></a>
+                      </ul>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="mainText">
+            <h1><span>Your Issues In Sight.</span><span>At All Times</span></h1>
+         </div>
+        <div>  
+            <p class="supportingText">Powerful tracking and monitoring for software applications<br>
+            Trusted by over 4,000 startups.</p>
+        </div>  
+
+        <!-- MacBook image put together piece by piece-->
+        <div class="laptop">
+            <img id="computer" src="./img/MacBook Pro 16.png" alt="A laptop computer showing the app interface.">
+            <img id="screen" src="./img/Screen mockup (REPLACE FILL).png">
+            <img id="camera" src="./img/Camera.png">
+            <img id="maclogo" src="./img/MacLogo.png">
+            <img id="shadow" src="./img/Shadow.png">
+        </div>
+    </main>
+
+    <footer>
+        <div class="footercontainer">
+            <p>Join 4,000+ companies using Prolog</p>
+            <div class="sponsors">
+                <div class="company">
+                    <div class="layerslogocontainer">
+                        <img src="./img/LayersLogo.svg">
+                    </div>
+                    <img id="layers" src="./img/Layers.svg">
+                </div>
+                <div class="company">
+                    <div class="sisyphuslogocontainer">
+                        <img src="./img/SisyphusLogo.svg">
+                    </div>
+                    <img id="sisyphus" src="./img/Sisyphus.svg">
+                </div>
+
+                <div class="company">
+                    <div class="circooleslogocontainer">
+                        <img src="./img/CircoolesLogo.svg">
+
+                    </div>
+                    <img id="circooles" src="./img/Circooles.svg">
+                </div>
+
+                <div class="company">
+                    <div class="cataloglogocontainer">
+                        <img src="./img/CatalogLogo.svg">
+                    </div>
+                    <img id="catalog" src="./img/Catalog.svg">
+                </div>
+                
+                <div class="company">
+                    <div class="quotientlogocontainer">
+                        <img src="./img/QuotientLogo.svg">
+                    </div>
+                    <img id="quotient" src="./img/Quotient.svg">
+                </div>
+            </div>
+        </div>
+        <div id="contact"><img src="./img/Button.svg"></div>
+        
+    </footer>
+</body>
+</html>
